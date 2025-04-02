@@ -1,0 +1,247 @@
+
+import { ProductType } from "@/types/product";
+
+export const mockProducts: ProductType[] = [
+  {
+    product_id: 1,
+    seller_id: 1,
+    name: "Premium Wireless Headphones",
+    description: "Experience superior audio quality with these noise-cancelling headphones. Perfect for work, travel, or relaxation.",
+    price: 199.99,
+    stock: 45,
+    category: "Electronics",
+    image_url: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop",
+    created_at: "2023-11-15T10:30:00Z",
+    average_rating: 4.7
+  },
+  {
+    product_id: 2,
+    seller_id: 2,
+    name: "Men's Casual Cotton T-Shirt",
+    description: "Comfortable, lightweight cotton t-shirt with a modern fit. Available in multiple colors.",
+    price: 29.99,
+    stock: 120,
+    category: "Clothing",
+    image_url: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1780&auto=format&fit=crop",
+    created_at: "2023-11-14T14:45:00Z",
+    average_rating: 4.5
+  },
+  {
+    product_id: 3,
+    seller_id: 3,
+    name: "Smart Home Speaker",
+    description: "Voice-controlled smart speaker with premium sound quality and built-in virtual assistant.",
+    price: 129.99,
+    stock: 35,
+    category: "Electronics",
+    image_url: "https://images.unsplash.com/photo-1589003077984-894e133dabab?q=80&w=1964&auto=format&fit=crop",
+    created_at: "2023-11-13T09:20:00Z",
+    average_rating: 4.8
+  },
+  {
+    product_id: 4,
+    seller_id: 1,
+    name: "Ergonomic Office Chair",
+    description: "Adjustable office chair with lumbar support, perfect for long work sessions.",
+    price: 249.99,
+    stock: 18,
+    category: "Home & Garden",
+    image_url: "https://images.unsplash.com/photo-1596162954151-cdcb4c0f70a8?q=80&w=1974&auto=format&fit=crop",
+    created_at: "2023-11-12T16:10:00Z",
+    average_rating: 4.6
+  },
+  {
+    product_id: 5,
+    seller_id: 4,
+    name: "Professional Basketball",
+    description: "Official size and weight basketball used by professional leagues.",
+    price: 59.99,
+    stock: 42,
+    category: "Sports",
+    image_url: "https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=2071&auto=format&fit=crop",
+    created_at: "2023-11-11T11:35:00Z",
+    average_rating: 4.9
+  },
+  {
+    product_id: 6,
+    seller_id: 5,
+    name: "Classic Fiction Novel Collection",
+    description: "Set of 5 classic novels from renowned authors. Hardcover edition with premium binding.",
+    price: 89.99,
+    stock: 15,
+    category: "Books",
+    image_url: "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1798&auto=format&fit=crop",
+    created_at: "2023-11-10T13:25:00Z",
+    average_rating: 4.7
+  },
+  {
+    product_id: 7,
+    seller_id: 2,
+    name: "Winter Wool Jacket",
+    description: "Warm wool jacket with stylish design, perfect for cold winter days.",
+    price: 149.99,
+    stock: 28,
+    category: "Clothing",
+    image_url: "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?q=80&w=1974&auto=format&fit=crop",
+    created_at: "2023-11-09T15:50:00Z",
+    average_rating: 4.4
+  },
+  {
+    product_id: 8,
+    seller_id: 3,
+    name: "4K Ultra HD Smart TV",
+    description: "55-inch 4K UHD LED Smart TV with HDR and built-in streaming apps.",
+    price: 699.99,
+    stock: 10,
+    category: "Electronics",
+    image_url: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format&fit=crop",
+    created_at: "2023-11-08T08:15:00Z",
+    average_rating: 4.8
+  },
+  {
+    product_id: 9,
+    seller_id: 4,
+    name: "Indoor Plant Collection",
+    description: "Set of 3 low-maintenance indoor plants in decorative pots.",
+    price: 49.99,
+    stock: 22,
+    category: "Home & Garden",
+    image_url: "https://images.unsplash.com/photo-1545165375-1b744b9ed444?q=80&w=1964&auto=format&fit=crop",
+    created_at: "2023-11-07T10:40:00Z",
+    average_rating: 4.6
+  },
+  {
+    product_id: 10,
+    seller_id: 1,
+    name: "Yoga Mat Premium",
+    description: "Extra thick, non-slip yoga mat made from eco-friendly materials.",
+    price: 39.99,
+    stock: 37,
+    category: "Sports",
+    image_url: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2070&auto=format&fit=crop",
+    created_at: "2023-11-06T12:30:00Z",
+    average_rating: 4.7
+  },
+  {
+    product_id: 11,
+    seller_id: 5,
+    name: "Business Strategy Guide",
+    description: "Comprehensive guide to modern business strategies for entrepreneurs and managers.",
+    price: 34.99,
+    stock: 45,
+    category: "Books",
+    image_url: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2012&auto=format&fit=crop",
+    created_at: "2023-11-05T09:55:00Z",
+    average_rating: 4.5
+  },
+  {
+    product_id: 12,
+    seller_id: 2,
+    name: "Leather Messenger Bag",
+    description: "Genuine leather messenger bag with multiple compartments for laptops and accessories.",
+    price: 119.99,
+    stock: 14,
+    category: "Clothing",
+    image_url: "https://images.unsplash.com/photo-1548863227-3af567fc3b27?q=80&w=2070&auto=format&fit=crop",
+    created_at: "2023-11-04T14:20:00Z",
+    average_rating: 4.6
+  },
+  {
+    product_id: 13,
+    seller_id: 3,
+    name: "Smartphone XL Pro",
+    description: "Latest flagship smartphone with advanced camera system and long battery life.",
+    price: 899.99,
+    stock: 8,
+    category: "Electronics",
+    image_url: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=2127&auto=format&fit=crop",
+    created_at: "2023-11-03T11:10:00Z",
+    average_rating: 4.9
+  },
+  {
+    product_id: 14,
+    seller_id: 4,
+    name: "Stainless Steel Cookware Set",
+    description: "10-piece stainless steel cookware set with non-stick coating and heat-resistant handles.",
+    price: 199.99,
+    stock: 11,
+    category: "Home & Garden",
+    image_url: "https://images.unsplash.com/photo-1590794056499-7349e93220e3?q=80&w=1974&auto=format&fit=crop",
+    created_at: "2023-11-02T13:45:00Z",
+    average_rating: 4.7
+  },
+  {
+    product_id: 15,
+    seller_id: 1,
+    name: "Mountain Bike Pro",
+    description: "Durable mountain bike with 21 speeds and front suspension for rough terrain.",
+    price: 429.99,
+    stock: 7,
+    category: "Sports",
+    image_url: "https://images.unsplash.com/photo-1511994298241-608e28f14fde?q=80&w=2070&auto=format&fit=crop",
+    created_at: "2023-11-01T10:25:00Z",
+    average_rating: 4.8
+  },
+  {
+    product_id: 16,
+    seller_id: 5,
+    name: "Personal Finance Book",
+    description: "Best-selling guide to personal finance management and wealth building.",
+    price: 24.99,
+    stock: 32,
+    category: "Books",
+    image_url: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1811&auto=format&fit=crop",
+    created_at: "2023-10-31T15:30:00Z",
+    average_rating: 4.6
+  },
+  {
+    product_id: 17,
+    seller_id: 2,
+    name: "Designer Sunglasses",
+    description: "UV-protective designer sunglasses with polarized lenses.",
+    price: 159.99,
+    stock: 19,
+    category: "Clothing",
+    image_url: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=2080&auto=format&fit=crop",
+    created_at: "2023-10-30T09:15:00Z",
+    average_rating: 4.5
+  },
+  {
+    product_id: 18,
+    seller_id: 3,
+    name: "Wireless Gaming Mouse",
+    description: "High-precision wireless gaming mouse with customizable RGB lighting.",
+    price: 79.99,
+    stock: 25,
+    category: "Electronics",
+    image_url: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=2065&auto=format&fit=crop",
+    created_at: "2023-10-29T12:50:00Z",
+    average_rating: 4.7
+  },
+  {
+    product_id: 19,
+    seller_id: 4,
+    name: "Artificial Plant Decoration",
+    description: "Lifelike artificial plants for home decoration, no maintenance required.",
+    price: 29.99,
+    stock: 0,
+    category: "Home & Garden",
+    image_url: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=2072&auto=format&fit=crop",
+    created_at: "2023-10-28T14:35:00Z",
+    average_rating: 4.4
+  },
+  {
+    product_id: 20,
+    seller_id: 1,
+    name: "Tennis Racket Pro",
+    description: "Professional-grade tennis racket used by tournament players.",
+    price: 189.99,
+    stock: 9,
+    category: "Sports",
+    image_url: "https://images.unsplash.com/photo-1592709823125-a191f07a2a5e?q=80&w=1964&auto=format&fit=crop",
+    created_at: "2023-10-27T11:20:00Z",
+    average_rating: 4.8
+  }
+];
+
+export default mockProducts;
